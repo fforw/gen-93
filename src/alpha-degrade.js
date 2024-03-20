@@ -12,7 +12,7 @@ export default function alphaDegrade(ctx)
     const count = (width * height) * 0.05
     for (let i = 0; i < count; i++)
     {
-        ctx.fillStyle = `rgba(0,0,0,${0.02 + random.next() * 0.03})`
+        ctx.fillStyle = `rgba(0,0,0,${0.03 + random.next() * 0.03})`
         const x = Math.floor(random.next() * width)
         const y = Math.floor(random.next() * height)
 
