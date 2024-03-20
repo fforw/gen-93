@@ -4,7 +4,8 @@ This one uses shapes drawn between random points chosen from a limited set of fi
 
 ![Diagram of random point locations](./media/points.png)
                                                        
-Two points are chosen and drawn with (weighted) random shapes and a gradient background chosen from a random palette.
+Two points are chosen and drawn with (weighted) random shapes and a gradient background chosen from a random palette. The
+gradients use fancy [spectral.js color gradients](https://github.com/rvanwijnen/spectral.js).
 
 Several of these shapes are set up and then filled with "evenodd" / xor-filling with that gradient. 
 
